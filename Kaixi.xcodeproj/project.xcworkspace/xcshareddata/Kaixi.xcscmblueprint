@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d527bfd2-f195-11dd-984d-ab748d24aa7e++1904" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d527bfd2-f195-11dd-984d-ab748d24aa7e++1904" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DA21FEC6-9E4C-4616-8478-CD951FF6AE50",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d527bfd2-f195-11dd-984d-ab748d24aa7e++1904" : "Kaixi\/minizip\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kaixi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kaixi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/ziparchive.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d527bfd2-f195-11dd-984d-ab748d24aa7e++1904"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Image" representedClassName="Image" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="knid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InteractionInfo" representedClassName="InteractionInfo" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InteractionList" representedClassName="InteractionList" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Kind" representedClassName="Kind" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Knowledge" representedClassName="Knowledge" syncable="YES">
+        <attribute name="hasdownload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MedicalImage" representedClassName="MedicalImage" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MedicalKind" representedClassName="MedicalKind" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MedicalKnowledge" representedClassName="MedicalKnowledge" syncable="YES">
+        <attribute name="hasdownload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mpid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MedicalProduct" representedClassName="MedicalProduct" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PolocyInfo" representedClassName="PolocyInfo" syncable="YES">
+        <attribute name="hasdownload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PolocyList" representedClassName="PolocyList" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShuoMing" representedClassName="ShuoMing" syncable="YES">
+        <attribute name="hasdownload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Trace" representedClassName="Trace" syncable="YES">
+        <attribute name="hasdownload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaRanking" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="countryRanking" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fuhuo" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="highScore" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="interactionVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="large" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicalVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noticeTag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offpw" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pkVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="policyVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registrationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surplusScore" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Image" positionX="-216" positionY="63" width="128" height="88"/>
+        <element name="InteractionInfo" positionX="-243" positionY="18" width="128" height="88"/>
+        <element name="InteractionList" positionX="-252" positionY="9" width="128" height="73"/>
+        <element name="Kind" positionX="-72" positionY="-135" width="128" height="75"/>
+        <element name="Knowledge" positionX="-425" positionY="-108" width="128" height="135"/>
+        <element name="MedicalImage" positionX="-207" positionY="72" width="128" height="88"/>
+        <element name="MedicalKind" positionX="-236" positionY="8" width="128" height="73"/>
+        <element name="MedicalKnowledge" positionX="-333" positionY="140" width="128" height="135"/>
+        <element name="MedicalProduct" positionX="-119" positionY="107" width="128" height="73"/>
+        <element name="PolocyInfo" positionX="-252" positionY="9" width="128" height="118"/>
+        <element name="PolocyList" positionX="-198" positionY="63" width="128" height="73"/>
+        <element name="Product" positionX="-252" positionY="-144" width="128" height="73"/>
+        <element name="ShuoMing" positionX="-252" positionY="9" width="128" height="118"/>
+        <element name="Trace" positionX="-252" positionY="9" width="128" height="103"/>
+        <element name="UserInfo" positionX="-252" positionY="9" width="128" height="285"/>
+    </elements>
+</model>
